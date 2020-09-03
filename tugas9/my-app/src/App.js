@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
    <header>
+     
 <h1>form pembelian buah</h1>
 <form>
 <label for="nama"> <b>nama pelanggan:</b></label>
