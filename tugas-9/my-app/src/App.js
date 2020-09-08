@@ -7,6 +7,8 @@ import List from './tugas-10/cb';
 
 import Clock from './tugas11/tugas-11';
 import Time from './tugas11/time';
+import DaftarBuah from './tugas12/tugas12';
+
 
 
 function App() {
@@ -19,21 +21,19 @@ function App() {
    
       <Form />
     </div>
-
-
-
 <div>
  
       <List />
     </div>
 
-
-
-    
-
 <div>
  <Clock/>
  <Time/>
+</div>
+
+<div>
+
+  <DaftarBuah/>
 </div>
 
 
