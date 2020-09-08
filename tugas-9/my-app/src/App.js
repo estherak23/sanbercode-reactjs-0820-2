@@ -5,6 +5,8 @@ import './App.css';
 import Form from '../src/tugas-9/tugas9';
 import List from './tugas-10/cb';
 
+import Clock from './tugas11/tugas-11';
+import Time from './tugas11/time';
 
 
 function App() {
@@ -27,8 +29,12 @@ function App() {
 
 
 
+    
 
-
+<div>
+ <Clock/>
+ <Time/>
+</div>
 
 
 
