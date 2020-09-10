@@ -8,14 +8,29 @@ import List from './tugas-10/cb';
 import Clock from './tugas11/tugas-11';
 import Time from './tugas11/time';
 import DaftarBuah from './tugas13/tugas13';
-
-
+import {BuahContext} from "./BuahContext"
+import BuahForm from "./tugas14/buahForm"
 
 function App() {
   return (
     <div>
    <header>
      
+
+
+   <BuahProvider >
+      <div style={{width: "40%", margin: "0 auto"}}>
+      
+        <BuahForm/>
+      </div>
+    </BuahProvider >
+
+
+
+
+
+
+
 {/*}
    <div>
    
@@ -39,14 +54,14 @@ function App() {
   {*/}
 
 
-
+{/*}
 <div>
 
 <DaftarBuah/>
 
 
 </div>
-
+{*/}
 
 
 
